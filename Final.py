@@ -1,4 +1,4 @@
-#from PyDictionary import PyDictionary
+#Import the liberaries and modules required for the project.
 from gtts import gTTS
 from wordhoard import Definitions
 from wordhoard import Synonyms
@@ -10,7 +10,6 @@ import wikipedia
 import os
 
 
-#dict = PyDictionary()
 
 print("Press:")
 print("1 to Search on Wiki")
