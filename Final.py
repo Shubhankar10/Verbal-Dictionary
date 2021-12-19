@@ -10,7 +10,7 @@ import wikipedia
 import os
 
 
-
+#Show user the Menu
 print("Press:")
 print("1 to Search on Wiki")
 print("2 to Find Meaning of a Word")
@@ -87,38 +87,3 @@ myobj = gTTS(text=speak, slow=False)
 myobj.save("audio.mp3")
 
 os.system("audio.mp3")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
